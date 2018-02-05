@@ -22,10 +22,10 @@ try:
         def portscan(port):
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             try:
-                con = s.connect((target,port))
+                connection = s.connect((target,port))
                 with print_lock:
                     print("[#] Port",port,"is open!")
-                con.close()
+                connection.close()
             except:
                 pass
 
