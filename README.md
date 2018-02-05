@@ -1,2 +1,4 @@
 # simple-port-scanner
-`python3 sps.py`
+```
+python3 sps.py
+```
